@@ -1,0 +1,19 @@
+{
+	"Print to console": {
+		"prefix": "any_to_any_ll",
+		"body": [
+			"//----------any_to_any_ll",
+			"ll any_to_any_ll(ll from, ll to){",
+			"	ll ans=0;",
+			"	ll inc=1;",
+			"	while(from>0){",
+			"		ans+=(from%to)*inc;",
+			"		inc*=10;",
+			"		from/=to;",
+			"	}",
+			"	return ans;",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
