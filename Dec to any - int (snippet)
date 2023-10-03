@@ -2,8 +2,8 @@
 	"Print to console": {
 		"prefix": "dec_to_any_ll",
 		"body": [
-			"//----------any_to_any_ll",
-			"ll any_to_any_ll(ll dec, ll to){",
+			"//----------dec_to_any_ll",
+			"ll dec_to_any_ll(ll dec, ll to){",
 			"	ll ans=0;",
 			"	ll inc=1;",
 			"	while(dec>0){",
